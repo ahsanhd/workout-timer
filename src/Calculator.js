@@ -39,7 +39,7 @@ function Calculator({ workouts, allowSound }) {
 
   useEffect(() => {
     document.title = `Your ${number}-exercise Routine`;
-  }, []);
+  }, [number]);
 
   return (
     <>
